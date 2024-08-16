@@ -22,13 +22,13 @@ const __dirname = path.dirname(__filename);
 //Index url
 app.get ('/', (req, res)=>{
     console.log('index')
-    res.sendFile(path.join(__dirname, '../public/index.html'))
+    res.sendFile(path.join(__dirname, '../public/index'))
 })
 
 //Contacto url
 app.get('/contacto', (req,res)=>{
     console.log('contacto')
-    res.sendFile(path.join(__dirname, '../public/contacto.html'))
+    res.sendFile(path.join(__dirname, '../public/contacto'))
 
 })
 
